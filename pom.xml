@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.gr.doctorscloud</groupId>
+    <groupId>com.diakogiannis.alexius</groupId>
     <artifactId>AESEncryptor</artifactId>
     <version>1.2.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>AESEncryptor</name>
     <properties>
-        <sonar.exclusions>**/dao/*</sonar.exclusions>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -51,10 +50,6 @@
                 <artifactId>maven-jgitflow-plugin</artifactId>
                 <version>1.0-alpha27</version>
                 <configuration>
-                    <flowInitContext>
-                        <masterBranchName>master</masterBranchName>
-                        <developBranchName>develop</developBranchName>
-                    </flowInitContext>
                     <!-- Enable this to push to origin using SSH keys -->
                     <enableSshAgent>false</enableSshAgent>
                     <!-- Keep your maven submodules at the same version as the parent POM -->
@@ -84,7 +79,6 @@
                     -->
                     <noDeploy>true</noDeploy>
                     <flowInitContext>
-
                         <!-- You can also customize your tag prefixes -->
                         <versionTagPrefix>rev-</versionTagPrefix>
                     </flowInitContext>
