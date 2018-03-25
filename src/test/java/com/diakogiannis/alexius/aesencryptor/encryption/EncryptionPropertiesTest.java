@@ -39,9 +39,9 @@ public class EncryptionPropertiesTest {
      */    
     @Test
     public void enumTest() {
-        Assert.assertEquals(EncodingProperties.PADDING.value() , "AES/CBC/PKCS5PADDING");
-        Assert.assertEquals(EncodingProperties.ENCODING.value() , "UTF-8");
-        Assert.assertEquals(EncodingProperties.KEYSPEC.value() , "AES");
+        Assert.assertEquals("AES/CBC/PKCS5PADDING",EncodingProperties.PADDING.value());
+        Assert.assertEquals("UTF-8",EncodingProperties.ENCODING.value());
+        Assert.assertEquals("AES",EncodingProperties.KEYSPEC.value() );
         Assert.assertEquals(EncodingProperties.KEY_LENGTH.intValue() , new Integer(256));
     }
 

@@ -93,7 +93,7 @@ public class EncryptionFactoryTest {
         String key = null;
         String superSecret = "Hello World";
         byte[] encrypted = ef.encryptBytes(key, superSecret.getBytes());
-        Assert.assertEquals(null, ef.decryptBytes(key, encrypted));
+        Assert.assertEquals(0, ef.decryptBytes(key, encrypted).length);
     }
 /**
      * Test 
@@ -103,7 +103,7 @@ public class EncryptionFactoryTest {
         EncryptionFactory ef = new EncryptionFactoryImpl();
         byte[] encrypted = ef.encryptBytes("foo", null);
         encrypted = ef.encryptBytes(null, new byte[0]);
-        Assert.assertEquals(null, encrypted);
+        Assert.assertEquals(0, encrypted.length);
     }
     /**
      * Test 

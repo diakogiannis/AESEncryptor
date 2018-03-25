@@ -108,7 +108,7 @@ public class EncryptionFactoryImpl implements EncryptionFactory {
 
         } catch (NullPointerException | UnsupportedEncodingException | InvalidAlgorithmParameterException | InvalidKeyException | NoSuchAlgorithmException | BadPaddingException | IllegalBlockSizeException | NoSuchPaddingException ex) {
             LOG.log(Level.SEVERE,ex.getMessage(),ex);
-            return null;
+            return new byte[0];
         }
 
     }
@@ -140,9 +140,9 @@ public class EncryptionFactoryImpl implements EncryptionFactory {
 
             return encryptedBytes;
 
-        } catch (NullPointerException | UnsupportedEncodingException | InvalidAlgorithmParameterException | InvalidKeyException | NoSuchAlgorithmException | BadPaddingException | IllegalBlockSizeException | NoSuchPaddingException ex) {
+        } catch (NullPointerException | NegativeArraySizeException | UnsupportedEncodingException | InvalidAlgorithmParameterException | InvalidKeyException | NoSuchAlgorithmException | BadPaddingException | IllegalBlockSizeException | NoSuchPaddingException ex) {
             LOG.log(Level.SEVERE,ex.getMessage(), ex);
-            return null;
+            return new byte[0];
         }
 
     }
