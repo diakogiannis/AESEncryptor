@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.diakogiannis.alexius</groupId>
+    <groupId>com.diakogiannis.alexius.security</groupId>
     <artifactId>AESEncryptor</artifactId>
-    <version>1.2.1</version>
+    <version>1.2.2</version>
     <packaging>jar</packaging>
     <name>AESEncryptor</name>
-    <description>A Java library to implement AES Encryption with CBC padding using dynamic IV</description>
+    <description>A Java library to implement AES Encryption with CBC padding using dynamic IV and secure key generation</description>
     <url>https://github.com/diakogiannis/AESEncryptor</url>
     <licenses>
         <license>
