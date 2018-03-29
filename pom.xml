@@ -90,7 +90,7 @@
                     <noDeploy>true</noDeploy>
                     <flowInitContext>
                         <!-- You can also customize your tag prefixes -->
-                        <versionTagPrefix>rev-</versionTagPrefix>
+                        <versionTagPrefix>-RELEASE</versionTagPrefix>
                     </flowInitContext>
                 </configuration>
             </plugin>
