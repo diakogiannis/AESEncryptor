@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.diakogiannis.alexius.security</groupId>
     <artifactId>AESEncryptor</artifactId>
-    <version>1.2.4</version>
+    <version>1.2.5</version>
     <packaging>jar</packaging>
     <name>AESEncryptor</name>
     <description>A Java library to implement AES Encryption with CBC padding using dynamic IV and secure key generation</description>
@@ -90,7 +90,7 @@
                     <noDeploy>true</noDeploy>
                     <flowInitContext>
                         <!-- You can also customize your tag prefixes -->
-                        <versionTagPrefix>-RELEASE</versionTagPrefix>
+                        <versionTagPrefix>RELEASE-</versionTagPrefix>
                     </flowInitContext>
                 </configuration>
             </plugin>
