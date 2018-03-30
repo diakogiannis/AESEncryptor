@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.diakogiannis.alexius.security</groupId>
     <artifactId>AESEncryptor</artifactId>
-    <version>1.2.6</version>
+    <version>1.2.7</version>
     <packaging>jar</packaging>
     <name>AESEncryptor</name>
     <description>A Java library to implement AES Encryption with CBC padding using dynamic IV and secure key generation</description>
@@ -15,7 +15,21 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
-    
+    <developers>
+        <developer>
+            <id>diakogiannis</id>
+            <name>Alexius Diakogiannis</name>
+            <email>alexius.diakogiannis@gmail.com</email>
+            <organization>Diakogiannis</organization>
+            <organizationUrl>https://www.diakogiannis.com</organizationUrl>
+            <url>https://www.jee.gr</url>
+            <roles>
+                <role>Project-Administrator</role>
+                <role>Developer</role>
+            </roles>
+            <timezone>+3</timezone>
+        </developer>
+    </developers>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
