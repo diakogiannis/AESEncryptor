@@ -1,5 +1,7 @@
 # Read me [![Javadocs](https://www.javadoc.io/badge/com.diakogiannis.alexius.security/AESEncryptor.svg)](https://www.javadoc.io/doc/com.diakogiannis.alexius.security/AESEncryptor)
 
+A java library to simplify the encryption/decryption proccedure with java using AES with CBC padding for both Strings and Byte arrays using random initialization vectors. It also supports secret key generation. 
+
 # Prequisites
 
 ## Maven
