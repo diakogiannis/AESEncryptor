@@ -42,7 +42,7 @@ public class EncryptionPropertiesTest {
         Assert.assertEquals("AES/CBC/PKCS5PADDING",EncodingProperties.PADDING.value());
         Assert.assertEquals("UTF-8",EncodingProperties.ENCODING.value());
         Assert.assertEquals("AES",EncodingProperties.KEYSPEC.value() );
-        Assert.assertEquals(EncodingProperties.KEY_LENGTH.intValue() , new Integer(256));
+        Assert.assertEquals(EncodingProperties.KEY_LENGTH.intValue() , Integer.valueOf(256));
     }
 
     

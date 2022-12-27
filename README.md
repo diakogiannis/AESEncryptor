@@ -13,7 +13,7 @@ You need to add the following Maven depentency
 <dependency>
     <groupId>com.diakogiannis.alexius.security</groupId>
     <artifactId>AESEncryptor</artifactId>
-    <version>1.2.7</version>
+    <version>1.2.8</version>
 </dependency>
 ```
 ## Installation of policy files
